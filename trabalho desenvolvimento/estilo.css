@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+.divAlingRight{
+    background-color: darkgray;
+    float: right;
+}
+.table-container {
+    display: flex;
+}
+
+.table1, .table2 .table3 .table4 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.table1 {
+    background-color:white;
+}
+
+.table2 {
+    background-color:white;
+}
